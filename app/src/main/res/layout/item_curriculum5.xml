@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout android:background="@color/colorWhile" android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:background="@color/colorWhile" android:orientation="horizontal" android:layout_height="80dp" android:layout_width="match_parent">
+
+
+        <LinearLayout android:orientation="vertical" android:layout_height="80dp" android:layout_width="wrap_content">
+
+            <TextView android:background="@drawable/circle" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center"/>
+
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text=" 7 :00"/>
+
+            <View android:background="@color/circleIndicator_color" android:layout_height="wrap_content" android:layout_width="1dp" android:layout_gravity="center" android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout android:orientation="vertical" android:layout_height="80dp" android:layout_width="match_parent">
+
+            <View android:background="@drawable/divider" android:layout_height="1dp" android:layout_width="match_parent" android:layout_marginTop="5dp"/>
+
+
+            <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
+
+                <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="早餐" android:gravity="center_vertical"/>
+
+
+                <LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" android:gravity="center_vertical">
+
+                    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="今早满课" android:layout_margin="5dp"/>
+
+                    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="早餐是一天中最重要的一餐，建议食用用牛奶鸡蛋等高能量食物，足够的能量才能保持大脑的活力！" android:layout_margin="5dp" android:textSize="10sp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout android:background="@color/colorWhile" android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+
+        <LinearLayout android:orientation="vertical" android:layout_height="100dp" android:layout_width="wrap_content">
+
+            <TextView android:background="@drawable/circle" android:layout_height="10dp" android:layout_width="10dp" android:layout_gravity="center"/>
+
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text=" 8 :00"/>
+
+            <View android:background="@color/circleIndicator_color" android:layout_height="wrap_content" android:layout_width="1dp" android:layout_gravity="center" android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout android:orientation="vertical" android:layout_height="100dp" android:layout_width="match_parent">
+
+            <View android:background="@drawable/divider" android:layout_height="1dp" android:layout_width="match_parent" android:layout_marginTop="5dp"/>
+
+
+            <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
+
+                <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="1—2" android:gravity="center_vertical"/>
+
+                <LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" android:gravity="center_vertical">
+
+                    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="毛概" android:layout_margin="5dp" android:id="@+id/course_name"/>
+
+                    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="多媒体一" android:layout_margin="5dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout android:background="@color/colorWhile" android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+
+        <LinearLayout android:orientation="vertical" android:layout_height="100dp" android:layout_width="wrap_content">
+
+            <TextView android:background="@drawable/circle" android:layout_height="10dp" android:layout_width="10dp" android:layout_gravity="center"/>
+
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="10:00"/>
+
+            <View android:background="@color/circleIndicator_color" android:layout_height="wrap_content" android:layout_width="1dp" android:layout_gravity="center" android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout android:orientation="vertical" android:layout_height="100dp" android:layout_width="match_parent">
+
+            <View android:background="@drawable/divider" android:layout_height="1dp" android:layout_width="match_parent" android:layout_marginTop="5dp"/>
+
+
+            <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
+
+                <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="3—4" android:gravity="center_vertical"/>
+
+
+                <LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" android:gravity="center_vertical">
+
+                    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="界面设计" android:layout_margin="5dp"/>
+
+                    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="机房三" android:layout_margin="5dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout android:background="@color/colorWhile" android:orientation="horizontal" android:layout_height="80dp" android:layout_width="match_parent">
+
+
+        <LinearLayout android:orientation="vertical" android:layout_height="80dp" android:layout_width="wrap_content">
+
+            <TextView android:background="@drawable/circle" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center"/>
+
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="12:00"/>
+
+            <View android:background="@color/circleIndicator_color" android:layout_height="wrap_content" android:layout_width="1dp" android:layout_gravity="center" android:layout_marginBottom="5dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout android:orientation="vertical" android:layout_height="80dp" android:layout_width="match_parent">
+
+            <View android:background="@drawable/divider" android:layout_height="1dp" android:layout_width="match_parent" android:layout_marginTop="5dp"/>
+
+
+            <LinearLayout android:orientation="horizontal" android:layout_height="match_parent" android:layout_width="match_parent">
+
+                <TextView android:layout_height="match_parent" android:layout_width="wrap_content" android:text="午餐" android:gravity="center_vertical"/>
+
+
+                <LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="下午没课" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="下午虽然没课，建议按时吃完午饭后再去玩耍啦！午饭的建议是，想吃什么就吃什么！"
+                        android:textSize="10sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
