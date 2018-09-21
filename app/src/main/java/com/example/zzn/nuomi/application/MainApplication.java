@@ -7,12 +7,11 @@ import android.util.Log;
 import com.alibaba.sdk.android.push.CloudPushService;
 import com.alibaba.sdk.android.push.CommonCallback;
 import com.alibaba.sdk.android.push.noonesdk.PushServiceFactory;
-import com.example.zzn.nuomi.LoginActivity;
 
 
 public class MainApplication extends Application {
     private static final String TAG = "Init";
-    private static LoginActivity mainActivity = null;
+
     @Override
     public void onCreate() {
         super.onCreate();
@@ -21,6 +20,7 @@ public class MainApplication extends Application {
 
     /**
      * 初始化云推送通道
+     *
      * @param applicationContext
      */
     private void initCloudChannel(final Context applicationContext) {
@@ -41,10 +41,6 @@ public class MainApplication extends Application {
 //        MiPushRegister.register(applicationContext, "XIAOMI_ID", "XIAOMI_KEY"); // 初始化小米辅助推送
 //        HuaWeiRegister.register(applicationContext); // 接入华为辅助推送
 //        GcmRegister.register(applicationContext, "send_id", "application_id"); // 接入FCM/GCM初始化推送
-    }
-
-    public static void setMainActivity(LoginActivity activity) {
-        mainActivity = activity;
     }
 
 }
